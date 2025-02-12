@@ -175,3 +175,23 @@ sudo ip link del veth-ns2
 sudo ip link del veth-router0
 sudo ip link del veth-router1
 ```
+
+### Step 12: Script Run Instructions
+
+### i. Run the network setup script:
+
+```
+make setup
+```
+
+### ii. Test connectivity:
+
+```
+make test
+```
+
+### ii. Clean up the environment:
+
+```
+make clean
+```
